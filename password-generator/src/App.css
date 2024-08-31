@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+body {
+  background-color: #001f3f;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.container {
+  background-color: #003366;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#password {
+  background-color: #002244;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#password input[type="text"] {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.2em;
+  width: 70%;
+}
+
+#password button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#password button:hover {
+  background-color: #0056b3;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input[type="number"] {
+  width: 50px;
+  margin-left: 10px;
+}
+
+button#generate {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+button#generate:hover {
+  background-color: #0056b3;
+}

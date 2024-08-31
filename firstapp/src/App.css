@@ -1,0 +1,21 @@
+ .App {
+  text-align: center;
+}
+
+
+.row
+{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.card-item{
+  background-color: #61dafb;
+  flex-basis: 31%;
+  height: 180px;
+  margin: 1%;
+
+}

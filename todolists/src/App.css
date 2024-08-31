@@ -1,0 +1,79 @@
+*{
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+}
+
+
+form{
+  width: 80%;
+  margin: auto;
+  /* background-color: aqua; */
+ 
+}
+input{
+  width: 70%;
+  margin-right: 5%;
+  height: 20px;
+  font-size: larger;
+  padding: 5px;
+}
+
+button{
+  width: 20%;
+  height: 30px;
+  padding: 5px;
+}
+
+.outer{
+  width: 80%;
+  margin: auto;
+  /* background-color: aqua; */
+}
+
+.outer ul{
+  list-style: none;
+  text-align: left;
+  /* background-color: black; */
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+}
+.outer ul li {
+  margin: 10px;
+  padding: 5px;
+  background-color: rgb(17, 1, 1);
+  color: aliceblue;
+  height: 30px;
+  font-size: larger;
+}
+span{
+  position: absolute;
+  color: red;
+  left: 80%;
+  
+}
+
+.tabdiv{
+  width: 1170px;
+  margin: auto;
+  background-color: aqua;
+}
+
+.tabdiv ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+ 
+}
+.tabdiv ul li button{
+  width: 100px;
+  
+}
+
+.btnupdate{
+  background-color: red;
+}
